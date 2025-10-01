@@ -1,0 +1,6 @@
+curl -X POST \
+  https://api.craftmypdf.com/v1/create \
+  -H "Content-Type: application/json" \
+  -H "X-API-KEY: YOUR_API_KEY_HERE" \
+  -d @payload.json \
+  --output India_ME_Report.pdf
